@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: odin
+
+server:
+  port: 8080
+
+management:
+  server:
+    port: 8080
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: /
+
+swagger:
+  enable: false
